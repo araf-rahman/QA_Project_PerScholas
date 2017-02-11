@@ -9,5 +9,3 @@ elif age == 2:
 elif age > 2:
 	human = 22 + (age -2)*5
 	print ("Human years: ", human)
-
-
