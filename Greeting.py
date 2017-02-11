@@ -9,6 +9,4 @@ while True:
     if a=="yes":
         continue
     elif a=="no":
-        break
-    else:
         print("Enter either yes/no")
