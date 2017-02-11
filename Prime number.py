@@ -5,6 +5,7 @@ def is_prime(n):
             return False
         i += 1
     return True
+
 p = 2
 while p <= 100:
     if is_prime(p):
