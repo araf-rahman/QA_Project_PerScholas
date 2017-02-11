@@ -15,5 +15,9 @@ print(numbers[5])
 print(numbers[6])
 
 print(len(numbers))
-
+average = 0
+sum = 0
+for n in numbers:
+    sum = sum + n
+average = sum / len(numbers)
 print("The average of the above numbers is: ")

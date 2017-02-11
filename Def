@@ -1,9 +1,7 @@
 numbers = list() 
-for i in range(0, 10): 
+for i in list:
     inputNr = int(input("Enter a number: "))
     if(inputNr == -99):
-        break;
-
     numbers.append(inputNr)
     sum = 0
     for j, val in enumerate(numbers):
