@@ -10,7 +10,7 @@ def main():
     print('____________________')
     #convert celsius input to farenheit using loop
     for Celsius in range (start, end, increment):
-        Farenheit = int((9/ 5) * Celsius + 32)
+        Farenheit = int((9/5) * Celsius + 32)
         print(Celsius, '\t', format(Farenheit))
 main()
 
