@@ -25,8 +25,9 @@ for i in input_set:
 
 smallest = input_set[0]
 for i in range(len(input_set)):
-    if input_set[i] < largest:
+    if input_set[i] < smallest:
         smallest = input_set[i]
+
 print("ARRAY: ", input_set)
 print("Largest number is :",largest)
 print("Smallest number is:", smallest)
