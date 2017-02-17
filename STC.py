@@ -23,10 +23,11 @@ def main():
                     if 3<= len(k) <=8:
                         count += 1
                     i+=1
-            print (count)
+
+            print ("Number of words you have is", count)
         elif a.lower() == "no":
             print("Goodbye")
-        elif a != "yes" or "no":
+        elif a.lower() != "yes" or "no":
             print("Please enter Yes or No")
             main()
     except:
