@@ -26,7 +26,7 @@ def main():
                 exc = open(f, 'r').read().count('!')
                 ques = open(f, 'r').read().count('?')
                 sentences = per + exc + ques
-                average = count / len(wordsList)
+                average = count / sentences
 
                 print("Number of words you have is", count)
                 print('Average words is {}'.format(average))
