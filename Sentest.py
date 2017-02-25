@@ -8,7 +8,8 @@ print("Lets get started")
 def main():
     try:
         numWords = 0
-        count=0
+        count = 0
+        wordsList = list()
         a = input("Enter 'Yes' to continue or 'No' to exit:")
         if a.lower()=="yes":
             f=askopenfilename()
@@ -18,8 +19,8 @@ def main():
                     numWords += len(wordsList)
 
                 for i in range(len(wordsList)):
-                    k=wordsList[i]
-                    if 3<= len(k) <=8:
+                    k = wordsList[i]
+                    if 3 <= len(k) <= 8:
                         count += 1
                     i+=1
                 per = open(f, 'r').read().count(".")
