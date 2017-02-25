@@ -3,7 +3,6 @@ from tkinter.filedialog import askopenfilename
 Tk().withdraw()
 
 print("Welcome to Sentest Counter")
-print("This program will tell you how many senteces you have more than 3 and less than 8 characters")
 print("Lets get started")
 
 def main():
