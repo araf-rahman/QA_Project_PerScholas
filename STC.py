@@ -23,12 +23,9 @@ def main():
                         count += 1
                     i+=1
                 per = open(f, 'r').read().count(".")
-                com = open(f, 'r').read().count(",")
-                semi = open(f, 'r').read().count(";")
                 exc = open(f, 'r').read().count('!')
                 ques = open(f, 'r').read().count('?')
-                col = open(f, 'r').read().count(":")
-                sentences = per + com + semi + exc + ques + col
+                sentences = per + exc + ques
                 average = count / len(wordsList)
 
                 print("Number of words you have is", count)
